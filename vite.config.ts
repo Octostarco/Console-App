@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      external: ['@ant-design/icons'],
+      external: ['@ant-design/icons', 'antd5'],
     },
   },
   plugins: [react()],
