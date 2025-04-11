@@ -1,0 +1,68 @@
+.console-container {
+  max-width: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.console-output {
+  flex-grow: 1;
+  max-width: 100%;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #555;
+  margin-bottom: 10px;
+  min-height: 0;
+}
+
+.console-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.console-prompt {
+  color: #dcdcdc;
+  margin-right: 5px;
+}
+
+.console-input {
+  outline: none;
+  color: #dcdcdc;
+  padding: 0 5px;
+  flex-grow: 1;
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 24px;
+  border: 2px solid #555;
+  border-radius: 5px;
+}
+
+.console-item {
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.console-input-text {
+  color: #7cfc00;
+}
+
+.console-output-text {
+  color: #f0e68c;
+}
+
+.console-log-text {
+  color: #add8e6;
+}
+
+.console-error-text {
+  color: #ff6347;
+}
+
+.console-clear-button {
+  margin-top: 8px;
+}
