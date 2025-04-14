@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  base: '/console-app/',
+  base: '/apps/console-app/',
   plugins: [react()],
 });
