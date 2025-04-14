@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  base: '/apps/console-app/',
+  base: '/apps/${process.env.APP_ALIAS}/',
   plugins: [react()],
 });
