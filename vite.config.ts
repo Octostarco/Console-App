@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  base: process.env.OS_BASE_PATH,
+  base: process.env.OS_APP_BASEPATH,
   plugins: [react()],
 });
