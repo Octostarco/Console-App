@@ -36,7 +36,6 @@ export const getAllGlobalProperties = () => {
     'getItems',
     'getJSONSchema',
     'getOpenWorkspaces',
-    'getPasteContext',
     'getSchemaItems',
     'getStyler',
     'getStylerOptions',
